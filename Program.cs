@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace SuperHeroProject
+namespace SuperHero_WebApplication
 {
     public class Program
     {

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroProject", "SuperHeroProject.csproj", "{F0D071F3-1801-4DCB-B547-9DEE478DE652}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHero WebApplication", "SuperHero WebApplication.csproj", "{36803CF7-146E-415B-A817-FFBE22973366}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F0D071F3-1801-4DCB-B547-9DEE478DE652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F0D071F3-1801-4DCB-B547-9DEE478DE652}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F0D071F3-1801-4DCB-B547-9DEE478DE652}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F0D071F3-1801-4DCB-B547-9DEE478DE652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36803CF7-146E-415B-A817-FFBE22973366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36803CF7-146E-415B-A817-FFBE22973366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36803CF7-146E-415B-A817-FFBE22973366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36803CF7-146E-415B-A817-FFBE22973366}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1E19E444-5672-4A70-AECF-901932753A3F}
+		SolutionGuid = {87F288AD-8A0A-46D1-B22C-CAD5A6BE0D8B}
 	EndGlobalSection
 EndGlobal

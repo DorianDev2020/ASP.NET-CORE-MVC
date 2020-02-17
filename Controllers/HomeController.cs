@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using SuperHeroProject.Models;
+using SuperHero_WebApplication.Models;
 
-namespace SuperHeroProject.Controllers
+namespace SuperHero_WebApplication.Controllers
 {
     public class HomeController : Controller
     {

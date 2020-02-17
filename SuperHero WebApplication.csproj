@@ -2,13 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>aspnet-SuperHeroProject-379382C2-37FF-4B47-8A70-5EB85EE33270</UserSecretsId>
+    <UserSecretsId>aspnet-SuperHero_WebApplication-C053D235-F287-42BF-A116-A22A29022A7E</UserSecretsId>
+    <RootNamespace>SuperHero_WebApplication</RootNamespace>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="Data\Migrations\20200217140530_Heroes DataBase.cs" />
-    <Compile Remove="Data\Migrations\20200217140530_Heroes DataBase.Designer.cs" />
-  </ItemGroup>
 
 
   <ItemGroup>
@@ -17,7 +13,6 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
   </ItemGroup>
 
 </Project>

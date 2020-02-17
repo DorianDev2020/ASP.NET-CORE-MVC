@@ -1,6 +1,6 @@
 using System;
 
-namespace SuperHeroProject.Models
+namespace SuperHero_WebApplication.Models
 {
     public class ErrorViewModel
     {
