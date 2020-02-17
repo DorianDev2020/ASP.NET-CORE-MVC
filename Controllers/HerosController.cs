@@ -19,28 +19,33 @@ namespace heroproject1.Controllers
             this.db = db;
         }
 
-        // GET: Suits
+        // GET: Heroes
         public ActionResult Index()
         {
+            Hero hero = new Hero();
+            hero.HeroName = "test";
+            db.Heroes.Add(hero);
+            db.SaveChanges();
+
             var Heroes = db.Heroes;
             return View(Heroes);
         }
 
-        // GET: Suits/Details/5
+        // GET: Heroes/Details/5
         public ActionResult Details(int id)
         {
             Hero hero = db.Heroes.Find(id);
             return View();
         }
 
-        // GET: Suits/Create
+        // GET: Heroes/Create
         public ActionResult Create()
         {
             Hero suit = new Hero();
             return View();
         }
 
-        // POST: Suits/Create
+        // POST: Heroes/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(Hero hero)
@@ -58,13 +63,13 @@ namespace heroproject1.Controllers
             }
         }
 
-        // GET: Suits/Edit/5
+        // GET: Heroes/Edit
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: Suits/Edit/5
+        // POST: Heroes/Edit
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, Hero hero)
@@ -85,14 +90,14 @@ namespace heroproject1.Controllers
             }
         }
 
-        // GET: Suits/Delete/5
+        // GET: Heroes/Delete
         public ActionResult Delete(int id)
         {
 
             return View();
         }
 
-        // POST: Suits/Delete/5
+        // POST: Heroes/Delete
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, Hero hero)
@@ -100,8 +105,8 @@ namespace heroproject1.Controllers
             try
             {
                 // TODO: Add delete logic here
-                Hero heroToRemove = db.Heroes.Find(id); //?
-                db.Heroes.Remove(heroToRemove); //?
+                Hero heroToRemove = db.Heroes.Find(id); 
+                db.Heroes.Remove(heroToRemove); 
                 return RedirectToAction(nameof(Index));
             }
             catch
