@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace SuperHero_WebApplication.Data.Migrations
+namespace heroproject1.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {
