@@ -6,7 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\bootstrap-pulse.css" />
+    <Content Remove="wwwroot\css\bootstrap-pulse.css" />
     <Content Remove="wwwroot\css\site.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
   </ItemGroup>
 
 

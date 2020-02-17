@@ -22,11 +22,6 @@ namespace heroproject1.Controllers
         // GET: Heroes
         public ActionResult Index()
         {
-            Hero hero = new Hero();
-            hero.HeroName = "test";
-            db.Heroes.Add(hero);
-            db.SaveChanges();
-
             var Heroes = db.Heroes;
             return View(Heroes);
         }
